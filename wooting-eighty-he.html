@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    >
+
+    <script
+      src="https://kit.fontawesome.com/7efba6ae0b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=speaker_group"
+    >
+
+    <link href="style/style.css" rel="stylesheet" >
+    <link href="imgs/icon.ico" rel="icon" >
+    <title>RateWell</title>
+  </head>
+
+  <body class="bg-dark d-flex flex-column h-100">
+  <!-- Include Bootstrap -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+    crossorigin="anonymous"
+  ></script>
+    
+    <!-- Header -->
+    <header>
+      <nav class="navbar sticky-top navbar-expand-lg px-4 bg-warning">
+        <a class="navbar-brand" id="brand-name" href="main.html">
+          <img src="imgs/icon.ico" alt="Ratewell logo" >
+          RATEWELL
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li><h6 class="dropdown-header">Reviewed products</h6></li>
+                <li><a class="dropdown-item" href="mice.html">Mice (1)</a></li>
+                <li><a class="dropdown-item" href="keyboards.html">Keyboards (1)</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><h6 class="dropdown-header">In review</h6></li>
+                <li><a class="dropdown-item disabled" href="#">Monitors</a></li>
+                <li><a class="dropdown-item disabled" href="#">Speakers</a></li>
+                <li><a class="dropdown-item disabled" href="#">Headphones</a></li>
+                <li><a class="dropdown-item disabled" href="#">Laptops</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="signIn.html" class="nav-link" aria-disabled="false">Sign In</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control bg-warning border-dark border-2 me-2"
+              name="Search"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            >
+            <button class="btn border-2 border-dark search-btn" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <div class="container-sm d-flex justify-content-center">
+        <div class="card bg-light m-4 w-75">
+          <div class="row g-0 align-items-stretch">
+            <div class="col-md-7">
+              <img
+                src="https://i.rtings.com/assets/products/pvkIixIQ/wooting-80he/design-medium.jpg?format=auto"
+                class="img-fluid w-100 h-100 rounded-start object-fit-cover"
+                alt="Razer Viper Mini"
+              >
+            </div>
+            <div class="col-md-5">
+              <div class="card-body">
+                <div class="list-group w-100">
+                  <a
+                    href="#office-wooting-eighty-he"
+                    class="list-group-item border-0 list-group-item-action m-0"
+                  >
+                    <span class="bg-warning px-2 text-bg-primary rounded-pill"
+                      >7/10</span
+                    >
+                    Office
+                  </a>
+                  <a
+                    href="#gaming-wooting-eighty-he"
+                    class="list-group-item border-0 list-group-item-action m-0"
+                  >
+                    <span class="bg-success px-2 text-bg-primary rounded-pill"
+                      >9/10</span
+                    >
+                    Gaming
+                  </a>
+                  <a
+                    href="#programming-wooting-eighty-he"
+                    class="list-group-item border-0 list-group-item-action m-0"
+                  >
+                    <span class="bg-success px-2 text-bg-primary rounded-pill"
+                      >9/10</span
+                    >
+                    Programming
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container bg-warning border device-desc border-dark rounded p-4 mb-4"
+      >
+        <h2 id="office-wooting-eighty-he">Office</h2>
+        <p>
+          The Wooting 80HE is decent for office use. It offers outstanding build
+          quality and impressive typing quality with pre-lubed stabilizers and
+          switches. It also has high-quality PBT keycaps with a pleasant,
+          slightly textured finish. The case has multiple layers of
+          sound-dampening material, so it's very quiet to type on. Its
+          gasket-mount design offers a moderately cushioned typing experience,
+          though it is stiffer than many other gasket-mounted keyboards. This
+          might not be your preference if you prefer a softer typing feel.
+        </p>
+        <hr >
+        <h2 id="gaming-wooting-eighty-he">Gaming</h2>
+        <p>
+          The Wooting 80HE is an outstanding gaming keyboard with exceptionally
+          low latency. It supports a maximum polling rate of 8000Hz, producing a
+          highly consistent and responsive in-game experience. It also supports
+          a range of advanced features, like rapid trigger, which can provide
+          measurable advantages in certain games, like FPS or rhythm titles. It
+          also has outstanding build quality with pre-lubed switches and
+          stabilizers, high-quality PBT keycaps, and multiple layers of acoustic
+          material inside the case. The backlighting is fully addressable, and
+          the keycaps have clear shine-through legends. Its software experience
+          is robust and lightweight, offering in-depth customization for either
+          a web-based or downloadable client.
+        </p>
+        <hr >
+        <h2 id="programming-wooting-eighty-he">Programming</h2>
+        <p>
+          The Wooting 80HE is good for programming. It has outstanding build
+          quality with pre-lubed switches and stabilizers, layers of acoustic
+          foam, and high-quality PBT keycaps with shine-through legends that are
+          easy to read in darker rooms. You can also program macros using a
+          dedicated software utility. Lastly, it has a gasket mount design,
+          which lends a slightly softer, more cushioned typing experience.
+          However, this mounting system is a bit stiffer compared to most other
+          gasket-mounted keyboards we've tested.
+        </p>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="mt-auto d-flex flex-wrap justify-content-between align-items-center bg-dark border-top border-warning p-3 mt-5 mb-1">
+      <p class="col-md-4 mb-0 text-body-warning">© 2025 RateWell, Inc</p>
+      <a href="#" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" aria-label="RateWell">
+        <img src="imgs/icon.ico" alt="RateWell icon" class="rw-icon rounded" >
+      </a>
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item">
+          <a href="faq.html" class="nav-link px-2 text-warning">FAQ</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a href="mailto:f4tes3aler@gmail.com" class="nav-link px-2 text-warning">
+            Contact us: f4tes3aler@gmail.com
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

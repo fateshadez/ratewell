@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap");
+
+html {
+  height: 100%;
+}
+
+body {
+  color: #ffc107;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 24px;
+  margin: 0;
+  min-height: 100%;
+}
+
+#brand-name,
+.btn {
+  font-size: 28px;
+}
+
+.dropdown-menu {
+  font-size: 24px;
+}
+
+.navbar {
+  font-size: 28px;
+}
+
+.hero-background-1 {
+  background: url("https://i.rtings.com/assets/pages/mbBA9aUB/office-new-bg-medium.jpg")
+    no-repeat center center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+
+.hero-background-2 {
+  background: url(https://images.unsplash.com/photo-1624154670578-42532d763bd3?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+    no-repeat center center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+
+.hero-background-1::before,
+.hero-background-2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6); /* dark overlay */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.hero-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blurred-bg::before {
+  filter: brightness(0.5) blur(2px);
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+.card-registration .select-arrow {
+top: 13px;
+}
+
+.device-icon {
+  width: 40px;
+}
+
+.search-btn:hover {
+  color: black;
+  box-shadow: none;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.row a {
+  margin-bottom: 15px;
+}
+
+.device-icon:hover {
+  background-color: inherit !important;
+  color: inherit !important;
+  border-color: inherit !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+.main-hr {
+  border-color: #ffc107;
+  border-width: 5px;
+  border-style: solid;
+  opacity: 1;
+}
+
+.col-auto .btn {
+  width: 140px;
+  margin-inline: 50px;
+}
+
+.fa-arrow-down {
+  color: #ffc107;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+#brand-name img {
+  width: 48px;
+}
+
+.navbar ul {
+  padding-top: 5px;
+}
+
+.card {
+  width: 18rem;
+}
+
+.card-body h5 {
+  font-size: 28px;
+}
+
+.card-body p {
+  font-size: 18px;
+  color: gray;
+}
+
+.product-hr {
+  border-color: rgb(33, 37, 41);
+  border-width: 2px;
+  opacity: 0.5;
+}
+
+input::placeholder {
+  font-size: 24px;
+}
+
+.form-control {
+  font-size: 1.5rem;
+}
+
+.hero-text {
+  font-size: 26px;
+}
+
+.device-desc {
+  font-size: 20px;
+}
+
+.device-header, .device-desc {
+  color: black;
+}
+
+.accordion-button {
+  color:#ffc107;
+  font-size: 26px;
+}
+
+.row img {
+  width: 300px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ffc107;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
